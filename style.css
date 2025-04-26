@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+RO:wght@100..400&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h1 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 3.5rem;
+  text-align: center;
+  text-shadow: 2px 2px 2px #fbb952;
+  margin-top: 60px;
+}
+
+.fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+  z-index: -1;
+}/*fundo aparecendo a imagem completa, sem nenhum corte, nem espaços*/
+
+.box {
+  width: 40%;
+  height: 15vh;
+  border: 10px ridge #fbb952;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fcdca2;
+  opacity: 0.8;
+}
+
+a:hover {
+  color: #fbb952;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 1.8rem;
+  /*text-align: center;*/
+}
+
+li img {
+  margin-right: 10px; /* Espaço de 10px entre o ícone e o texto */
+}
+
+a {
+  font-family: "Playwrite RO", cursive;
+  text-decoration: none;
+  color: black;
+}
+
+.text-final {
+  position: fixed;
+  bottom: 20px; /* Distância do final da tela */
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  color: #fcdca2;
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 2px 2px 2px #fbb952;
+}
+
+/* Para telas até 600px (celular) */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 10%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  .box {
+    width: 80%;
+    height: auto;
+    padding: 5%;
+    top: 45%;
+  }
+}
+
+/* Para telas de 601px até 1024px (tablet) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+    font-size: 3.5rem;
+    margin-top: 15%;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+
+  .box {
+    width: 25%;
+    height: auto;
+    padding: 3%;
+    top: 48%;
+  }
+}
+
+/* Para telas acima de 1025px (computador) */
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 10rem;
+    margin-top: 20%;
+  }
+
+  h2 {
+    font-size: 7rem;
+  }
+
+  li {
+    font-size: 5rem;
+  }
+
+  .box {
+    width: 23%;
+    height: 13vh;
+    padding: 5%;
+    top: 50%;
+  }
+}
