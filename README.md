@@ -14,4 +14,3 @@ One of my first projects during my front-end development learning journey.
 
 ## 🌐 Acesse o projeto
 
-🔗 GitHub Pages: https://kinha28.github.io/Banda-SQL/
