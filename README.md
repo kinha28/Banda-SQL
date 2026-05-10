@@ -1,5 +1,13 @@
+# 🎵 Banda Som Que Liberta
 
-This project was the first test I created for the band's website. It includes HTML and CSS.
+## 🇧🇷 PT-BR
+Projeto desenvolvido com HTML e CSS para praticar estruturação, estilização e responsividade.
 
+Um dos meus primeiros projetos durante minha jornada de aprendizado em desenvolvimento front-end.
 
-Esse projeto foi o primeiro teste que eu fiz para o site da banda. Tem HTML e CSS.
+---
+
+## 🇺🇸 EN
+Project developed with HTML and CSS to practice structure, styling, and responsiveness.
+
+One of my first projects during my front-end development learning journey.
