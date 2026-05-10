@@ -11,3 +11,7 @@ Um dos meus primeiros projetos durante minha jornada de aprendizado em desenvolv
 Project developed with HTML and CSS to practice structure, styling, and responsiveness.
 
 One of my first projects during my front-end development learning journey.
+
+## 🌐 Acesse o projeto
+
+🔗 GitHub Pages: https://kinha28.github.io/Banda-SQL/
