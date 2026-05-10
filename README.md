@@ -12,5 +12,4 @@ Project developed with HTML and CSS to practice structure, styling, and responsi
 
 One of my first projects during my front-end development learning journey.
 
-## 🌐 Acesse o projeto
 
