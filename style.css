@@ -1,135 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+RO:wght@100..400&display=swap');
+/* Importação da fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
 
+/* Estilização geral da página */
 body {
+  /* Define a fonte principal do site */
+  font-family: "Playwrite DE SAS", cursive;
+  /* Remove a margem padrão do navegador */
   margin: 0;
+  /* Remove o espaçamento interno padrão */
   padding: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
 }
 
+/* Título principal */
 h1 {
-  font-family: "Cedarville Cursive", cursive;
-  font-size: 3.5rem;
-  text-align: center;
-  text-shadow: 2px 2px 2px #fbb952;
-  position: relative;
-  top: -50px;
+  font-size: 3rem; /* tamanho da fonte */
+  text-align: center; /* centralizar texto */
+  text-shadow: 2px 2px 2px #fbb952; /* adicionar sombra ao texto */
 }
 
+/* Imagem de fundo */
 .fundo {
+  /* Mantém a imagem fixa na tela */
   position: fixed;
+  /* Posiciona no topo da página */
   top: 0;
-  left: 0;
+  /* Define largura total da tela */
   width: 100vw;
+  /* Define altura total da tela */
   height: 100vh;
-  object-fit: fill;
+  /* Coloca a imagem atrás dos outros elementos */
   z-index: -1;
-}/*fundo aparecendo a imagem completa, sem nenhum corte, nem espaços*/
+}
+
+/* Caixa principal do menu */
 .box {
-  width: 90%;
-  max-width: 300px;
-  margin: 100px auto; /* Deixa ela centralizada e com espaço em cima */
-  padding: 5%;
-  border: 10px ridge #fbb952;
-  border-radius: 20px;
+  /* Define largura total disponível */
+  width: 100%;
+  /* Define largura máxima da caixa */
+  max-width: 25rem;
+  /* Centraliza a caixa e adiciona margem externa */
+  margin: 1rem auto;
+  /* Adiciona borda decorativa */
+  border: 0.5rem ridge #fbb952;
+  /* Arredonda os cantos */
+  border-radius: 1.5rem;
+  /* Define cor de fundo */
   background-color: #fcdca2;
+  /* Define transparência da caixa */
   opacity: 0.8;
 }
 
-
-a:hover {
-  color: #fbb952;
-  text-decoration: underline;
-}
-
+/* Lista de navegação */
 ul {
+  /* Remove os marcadores da lista */
   list-style: none;
+  /* Remove espaçamento interno padrão */
   padding: 0;
+  /* Remove margem padrão */
   margin: 0;
 }
 
+/* Itens da lista */
 li {
+  /* Ativa layout flexível para alinhar conteúdo */
   display: flex;
-  align-items: center;
-  padding: 5px;
+  /* Espaçamento interno dos itens */
+  padding: 0.3rem;
+  /* Tamanho da fonte */
   font-size: 1.8rem;
-  /*text-align: center;*/
+  /* Centraliza o conteúdo horizontalmente */
+  justify-content: center;
 }
 
-li img {
-  margin-right: 10px; /* Espaço de 10px entre o ícone e o texto */
-}
-
+/* Links do menu */
 a {
-  font-family: "Playwrite RO", cursive;
+  /* Remove o sublinhado padrão dos links */
   text-decoration: none;
+  /* Define a cor do texto do link */
   color: black;
 }
 
-.text-final {
-  position: fixed;
-  bottom: 0; /* Distância do final da tela */
-  width: 100%;
-  text-align: center;
-}
-
-h2 {
-  color: #fcdca2;
-  font-family: "Cedarville Cursive", cursive;
-  font-size: 2.5rem;
-  text-align: center;
-  text-shadow: 2px 2px 2px #fbb952;
-}
-
-/* Para telas até 600px (celular) */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  li {
-    font-size: 1.2rem;
-  }
-}
-
-/* Para telas de 601px até 1024px (tablet) */
-@media (min-width: 601px) and (max-width: 1024px) {
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  h2 {
-    font-size: 2.5rem;
-  }
-  
-  .box {
-    margin: 100px auto; /* Deixa ela centralizada e com espaço em cima */
-  }
-
-  li {
-    font-size: 1.5rem;
-  }
-}
-
-/* Para telas acima de 1025px (computador) */
-@media (min-width: 1025px) {
-  h1 {
-    font-size: 8rem;
-  }
-  
-  .box {
-    margin: 700px auto; /* Deixa ela centralizada e com espaço em cima */
-  }
-
-  h2 {
-    font-size: 5rem;
-  }
-
-  li {
-    font-size: 3rem;
-  }
+/* Efeito ao passar o mouse nos links */
+a:hover {
+  color: #fbb952; /* Define a cor do texto do link */
+  text-decoration: underline; /* adiciona o sublinhado padrão dos links */
 }
