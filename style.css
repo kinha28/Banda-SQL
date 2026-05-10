@@ -30,6 +30,8 @@ h1 {
   height: 100vh;
   /* Coloca a imagem atrás dos outros elementos */
   z-index: -1;
+  /* Define transparência da caixa */
+  opacity: 0.8;
 }
 
 /* Caixa principal do menu */
@@ -84,4 +86,58 @@ a {
 a:hover {
   color: #fbb952; /* Define a cor do texto do link */
   text-decoration: underline; /* adiciona o sublinhado padrão dos links */
+}
+
+/* Carrossel */
+.carrossel {
+  /* Define largura total disponível */
+  width: 60%;
+  /* Adiciona margem externa e centraliza o elemento */
+  margin: 2rem auto;
+  /* Esconde conteúdo que ultrapassar os limites */
+  overflow: hidden;
+}
+
+/* Imagens do carrossel */
+.carrossel img {
+  /* Faz a imagem ocupar toda a largura do carrossel */
+  width: 100%;
+  /* Ajusta a imagem dentro do espaço disponível */
+  object-fit: contain;
+  /* Esconde as imagens inicialmente */
+  display: none;
+}
+
+/* Imagem ativa do carrossel */
+.carrossel img.ativo {
+  /* Exibe a imagem ativa na tela */
+  display: block;
+}
+
+/* Legendas */
+.legendas {
+  /* Centraliza o texto */
+  text-align: center;
+  /* Adiciona espaçamento acima das legendas */
+  margin-top: 10px;
+}
+
+/* Textos das legendas */
+.legendas span {
+  /* Esconde as legendas inicialmente */
+  display: none;
+}
+
+/* Legenda ativa */
+.legendas span.ativa {
+  /* Exibe a legenda ativa */
+  display: inline-block;
+  /* Define a cor dourada do texto */
+  color: gold;
+  /* Adiciona sublinhado ao texto */
+  text-decoration: underline;
+  /* Define o tamanho da fonte */
+  font-size: 1.5rem;
+  /* Adiciona sombra preta ao texto */
+  text-shadow: 2px 2px 2px black;
 }
