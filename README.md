@@ -1,13 +1,15 @@
 # 🎵 Banda Som Que Liberta
 
 ## 🇧🇷 PT-BR
-Projeto desenvolvido com HTML e CSS para praticar estruturação, estilização e responsividade.
 
-Um dos meus primeiros projetos durante minha jornada de aprendizado em desenvolvimento front-end.
+Nesta versão, atualizei o código adicionando duas novas metatags, melhorei a responsividade com unidades flexíveis e removi alguns comandos que não faziam sentido.
+
+A primeira versão deste projeto foi desenvolvida e editada pelo Acode no celular. Esta atualização foi feita utilizando o VS Code no notebook.
 
 ---
 
 ## 🇺🇸 EN
-Project developed with HTML and CSS to practice structure, styling, and responsiveness.
 
-One of my first projects during my front-end development learning journey.
+In this version, I updated the code by adding two new meta tags, improved responsiveness using flexible units, and removed some unnecessary commands.
+
+The first version of this project was developed and edited using Acode on mobile. This update was made using VS Code on a laptop.
