@@ -14,7 +14,3 @@ In this version, I updated the code by adding two new meta tags, improved respon
 
 The first version of this project was developed and edited using Acode on mobile. This update was made using VS Code on a laptop.
 
-
-## 🌐 Acesse o projeto
-
-🔗 GitHub Pages: https://kinha28.github.io/Banda-SQL/
