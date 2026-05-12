@@ -8,7 +8,6 @@ Utilizei um carrossel de imagens com legendas dinâmicas, onde cada foto possui 
 
 Além disso, trabalhei na organização visual da página para melhorar a experiência do usuário e deixar o layout mais agradável e responsivo.
 
-🔗 Projeto: https://kinha28.github.io/Banda-SQL/
 
 ---
 
@@ -20,4 +19,3 @@ I used an image carousel with dynamic captions, where each photo displays the na
 
 In addition, I worked on the visual organization of the page to improve the user experience and create a cleaner, more responsive layout.
 
-🔗 Project: https://kinha28.github.io/Banda-SQL/
