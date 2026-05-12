@@ -13,9 +13,12 @@ body {
 
 /* Título principal */
 h1 {
-  font-size: 3rem; /* tamanho da fonte */
-  text-align: center; /* centralizar texto */
-  text-shadow: 2px 2px 2px #fbb952; /* adicionar sombra ao texto */
+  font-size: 3rem;
+  /* tamanho da fonte */
+  text-align: center;
+  /* centralizar texto */
+  text-shadow: 2px 2px 2px #fbb952;
+  /* adicionar sombra ao texto */
 }
 
 /* Imagem de fundo */
@@ -24,13 +27,15 @@ h1 {
   position: fixed;
   /* Posiciona no topo da página */
   top: 0;
+  /* Posiciona na lateral da página */
+  left: 0;
   /* Define largura total da tela */
   width: 100vw;
   /* Define altura total da tela */
   height: 100vh;
   /* Coloca a imagem atrás dos outros elementos */
   z-index: -1;
-  /* Define transparência da caixa */
+  /* Define transparência da imagem */
   opacity: 0.8;
 }
 
@@ -84,8 +89,10 @@ a {
 
 /* Efeito ao passar o mouse nos links */
 a:hover {
-  color: #fbb952; /* Define a cor do texto do link */
-  text-decoration: underline; /* adiciona o sublinhado padrão dos links */
+  color: #fbb952;
+  /* Define a cor do texto do link */
+  text-decoration: underline;
+  /* adiciona o sublinhado padrão dos links */
 }
 
 /* Carrossel */
@@ -140,4 +147,122 @@ a:hover {
   font-size: 1.5rem;
   /* Adiciona sombra preta ao texto */
   text-shadow: 2px 2px 2px black;
+}
+
+/* titulo */
+.container h2 {
+  text-align: center;
+  /* alinhar texto ao centro */
+  font-size: 2rem;
+  /* tamanho da fonte */
+  margin: 0;
+  color: gold;
+  /* cor do titulo */
+  text-shadow: 2px 2px 2px black;
+  /* Adiciona sombra preta ao texto */
+}
+
+/* Seção contato */
+.contato {
+  display: flex;
+  flex-direction: row;
+  /* itens lado a lado */
+  justify-content: center;
+  /* alinha itens ao centro */
+  color: gold;
+  /* cor do contato */
+  gap: 2rem;
+  /*espaço entre itens */
+  font-size: 1.5rem;
+  /* tamanho da fonte */
+  margin: 2rem;
+}
+
+/* parágrafo */
+.contato p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* link */
+.contato a {
+  text-decoration: none;
+  /* remove sublinhado do link */
+  color: gold;
+  /* cor do iink */
+  font-weight: bold;
+  /* deixa o link em negrito */
+  text-shadow: 2px 2px 2px black;
+  /* brilho da letra */
+  font-size: 1rem;
+  /* tamanho da fonte */
+}
+
+/* mouse passa no link */
+.contato a:hover {
+  text-decoration: underline;
+  /* adiciona sublinhado ao link */
+}
+
+.ctn {
+  display: flex;
+  flex-direction: column;
+  /* um item embaixo do outro */
+  justify-content: center;
+  /* matém os itens no centro */
+  min-height: 40vh;
+  /* altura mínima da área */
+  gap: 1rem;
+  /*espaço entre itens */
+  margin-bottom: 5rem;
+}
+
+/* imagem Instagram */
+.img {
+  width: 5rem;
+  /* tamanho da immagem */
+  height: 5rem;
+  /* largura da imagem */
+}
+
+/* Botão flutuante WhatsApp */
+.whatsapp {
+  /* Mantém o elemento fixo na tela */
+  position: fixed;
+  /* Posiciona o elemento na parte inferior */
+  bottom: 0;
+  /* Posiciona o elemento na lateral direita */
+  right: 0;
+  /* Mantém o elemento acima dos outros */
+  z-index: 1000;
+}
+
+/* Imagem do botão */
+.whatsapp img {
+  /* largura da imagem */
+  width: 8rem;
+  /* altura da imagem */
+  height: 8rem;
+}
+
+/* Efeito hover */
+.whatsapp img:hover {
+  /* Aumenta levemente o tamanho da imagem */
+  transform: scale(1.1);
+}
+
+/* Link/Botão voltar */
+.voltar {
+  /* Espaçamento externo ao redor do elemento */
+  margin: 1rem;
+  /* Cor do texto */
+  color: white;
+  /* Espaçamento interno */
+  padding: 0.4rem;
+  /* Arredonda as bordas */
+  border-radius: 0.5rem;
+  /* Adiciona brilho dourado ao redor */
+  box-shadow: 0 0 20px gold;
 }
