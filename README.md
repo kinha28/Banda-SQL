@@ -1,13 +1,35 @@
-# 🎵 Banda Som Que Liberta
+# 🎸 Banda Som Que Liberta — Atualização do Projeto
 
-## 🇧🇷 PT-BR
-Projeto desenvolvido com HTML e CSS para praticar estruturação, estilização e responsividade.
+## 🇧🇷 Português
 
-Um dos meus primeiros projetos durante minha jornada de aprendizado em desenvolvimento front-end.
+Nova atualização do projeto **Banda Som Que Liberta** desenvolvida com **HTML, CSS e JavaScript** 🚀
+
+Nessa versão foi adicionada uma nova **página de contatos**, contendo:
+
+✨ Links para Instagram da banda
+✨ LinkedIn da desenvolvedora
+✨ GitHub da desenvolvedora
+✨ Botão flutuante do WhatsApp
+✨ Melhor organização do código
+✨ Comentários em HTML e CSS
+✨ Correções de bugs e melhorias visuais
+
+O projeto continua sendo utilizado como prática de desenvolvimento Front-End, focando em estruturação semântica, estilização, interatividade e organização de código.
 
 ---
 
-## 🇺🇸 EN
-Project developed with HTML and CSS to practice structure, styling, and responsiveness.
+## 🇺🇸 English
 
-One of my first projects during my front-end development learning journey.
+New update for the **Banda Som Que Liberta** project developed with **HTML, CSS and JavaScript** 🚀
+
+This version includes a new **contact page**, featuring:
+
+✨ Band Instagram links
+✨ Developer LinkedIn
+✨ Developer GitHub
+✨ Floating WhatsApp button
+✨ Better code organization
+✨ HTML and CSS comments
+✨ Bug fixes and visual improvements
+
+This project continues to be used as Front-End development practice, focusing on semantic structure, styling, interactivity and code organization.
