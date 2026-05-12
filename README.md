@@ -33,3 +33,10 @@ This version includes a new **contact page**, featuring:
 ✨ Bug fixes and visual improvements
 
 This project continues to be used as Front-End development practice, focusing on semantic structure, styling, interactivity and code organization.
+
+## 🔗 GitHub Pages
+
+Acesse o projeto publicado:
+
+[Banda Som Que Liberta](https://kinha28.github.io/Banda-SQL/?utm_source=chatgpt.com)
+
